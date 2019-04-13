@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Domain Parking</title>
+<style>
+      html, body {
+          overflow: hidden;
+          margin: 0;
+          background: #F3F3F3;
+      }
+      body {
+          font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
+          color: #333;
+      }
+      #wrapper {
+          position: absolute;
+          left: 0;
+          width: 320px;
+          text-align: center;
+          top: 50%;
+          left: 50%;
+          margin-left: -160px;
+          margin-top: -80px;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+      }
+      h1 {
+          font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+          font-weight: 700;
+          font-size: 30px;
+          letter-spacing: 9px;
+          text-transform: uppercase;
+          margin: 12px 0;
+          left: 0px;
+          animation: ani 2.5s;
+      }
+      h2 {
+          color: #999;
+          font-weight: normal;
+          font-size: 15px;
+          letter-spacing: .12em;
+          margin-bottom: 30px;
+          left: 0px;
+          animation: ani2 3s;
+      }
+      h1, h2 {
+          position: relative;
+      }
+      p {
+          font-size: 14px;
+          line-height: 2em;
+          margin: 0;
+          letter-spacing: 2px;
+      }
+      @keyframes ani
+      {
+        from { letter-spacing: 25px; opacity: .2; }
+        to { letter-spacing: 9px; opacity: 1; }
+      }
+      @keyframes ani2
+      {
+        0% { opacity: 0; }
+        75% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<div class="container">
+<h1><script>
+  var h = window.location.hostname
+  document.write(h)
+</script></h1>
+<h2>is Domain Parking.</h2>
+</div>
+</div>
+</body>
+</html>
